@@ -1,0 +1,6 @@
+// axios is used for api calls. 
+import axios from 'axios';
+
+const url = 'http://localhost:5000/posts';
+
+export const fetchPosts = () => axios.get(url);
